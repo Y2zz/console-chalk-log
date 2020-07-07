@@ -1,14 +1,17 @@
 {
-  "name": "chalk-console",
-  "version": "0.0.1",
-  "main": "index.ts",
+  "name": "console-chalk-log",
+  "version": "0.0.2",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Y2zz",
-  "license": "ISC",
-  "description": "",
-  "repository": "https://github.com/y2zz-info/chalk-console",
+  "license": "MIT 2.0",
+  "description": "控制台彩色日志",
+  "repository": "https://github.com/y2zz-info/console-chalk-log",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "devDependencies": {
     "chalk": "^4.1.0",
     "ts-node": "^8.10.2"
