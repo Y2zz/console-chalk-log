@@ -1,6 +1,6 @@
 {
-  "name": "console-chalk-log",
-  "version": "0.0.3",
+  "name": "@y2zz/console-chalk-log",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "scripts": {
     "release": "tsc && npm publish"
